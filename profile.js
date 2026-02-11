@@ -15,13 +15,13 @@ window.onload = () => {
     ageSpan.textContent = data.age;
     mailSpan.textContent = data.mail;
 
-    for(let i = 0; i < data.skills.length; i++) {
+   // for(let i = 0; i < data.skills.length; i++) {
 
-        let li = document.createElement('li');
-        li.innerHTML = data.skills[i];
+   //     let li = document.createElement('li');
+   //     li.innerHTML = data.skills[i];
 
-        skillslist.appendChild(li);
-    }
+   //     skillslist.appendChild(li);
+   // }
 
     })
     }
